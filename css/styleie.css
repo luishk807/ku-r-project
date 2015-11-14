@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.eot);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.eot);
+}
+@font-face {
+   font-family: 'boh';
+   src: url(../fonts/boh.eot);
+}

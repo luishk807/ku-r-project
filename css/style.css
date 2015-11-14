@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url(../images/back.jpg) repeat-x;
+	background-color:#000;
+}
+html, body{
+	margin: 0; padding: 0;
+}
+#main_cont{
+	width:690px;
+	margin-right:auto;
+	margin-left:auto;
+}
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.ttf);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.ttf);
+}
+@font-face {
+   font-family: 'boh';
+   src: url(../fonts/boh.ttf);
+}
+.bebas {
+   font-family: 'bebas';
+   /*font-size: 3.2em;*/
+}
+.boh {
+   font-family: 'boh';
+   /*font-size: 3.2em;*/
+}
+.ama {
+   font-family: 'ama';
+   /*font-size: 3.2em;*/
+}
+#logo{
+	float:left;
+}
+#icon{
+	float:right; padding-top:17px; padding-right:50px;
+}
+#cont{
+	width:438px; float:left;
+}
+#cont_text{
+	color:#FFF; font-family:Verdana; font-size:12pt; height:400px; overflow:auto;
+}
+#bottle{
+	float:right;
+}
+#button{
+	text-align:center;
+}
+#footer{
+	color:#FFF; font-size:9pt; font-family:'Lucida Sans Unicode'; text-align:center;
+}

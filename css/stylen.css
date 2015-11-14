@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:url(../images/bk.jpg) no-repeat;
+	background-position:center top; 
+	background-color:#000;
+}
+html, body{
+	margin: 0; padding: 0;
+	height:100%;
+	background-color: #000;
+}
+#main_cont{
+	width:886px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#divclear{
+	clear:both;
+}
+#header{
+	width:886px;
+	height:223px;
+	background:url(../images/sp1.png);
+}
+#flashm{
+	padding-left:20px;
+}
+#menu{
+	/*padding-top:95px;*/
+	padding-top:150px;
+	padding-left:50px;
+}
+#middle{
+	background:url(../images/spext.png);
+}
+#middle_left{
+	color:#FFF;
+	width:574px;
+	float:left;
+}
+#middle_top{
+	padding-left:65px;
+}
+#middle_left_h{
+	color:#FFF;
+	width:539px;
+	float:left;
+}
+#middle_left_in{
+	padding-left:65px;
+}
+#middle_right{
+	width:283px;
+	float:left;
+}
+#middle_right_h{
+	width:347px;
+	float:right;
+}
+#footer{
+	background:url(../images/spfooter.png);
+	width:886px;
+	height:131px;
+	font-family:"Lucida Sans Unicode";
+	font-size:12pt;
+}
+#footer_in{
+	padding-top:30px;
+	color:#FFF
+}
+#footer_left{
+	float:left;
+	width:715px;
+}
+#footer_left_in{
+	padding-left:60px;
+	font-weight:bold;
+}
+footer_right{
+	float:right;
+}
+.alink{
+	color:#FFF;
+	text-decoration:underline;
+}
+.white{
+	color:#FFF; font-weight:bold; font-size:15pt;
+}

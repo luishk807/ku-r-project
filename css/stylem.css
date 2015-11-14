@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+   /* background:url(../mobile2/images/back.jpg);
+	background-color:#000;
+	background-repeat:repeat-x;
+	background-position:top;
+	margin-top:0px;*/
+	background: #000 URL('../mobile/images/back.jpg') repeat-x top center;
+	background-size: 2000px 1983px;
+	margin-top:0px;
+}
+html, body{
+	margin: 0; padding: 0;
+	font-family:'ama';
+	color:#FFF;
+	font-size:40pt;
+	height:100%;
+}
+@font-face {
+   font-family: 'ama';
+   src: url(../fonts/ama.ttf);
+}
+@font-face {
+   font-family: 'bebas';
+   src: url(../fonts/bebas.ttf);
+}
+@font-face {
+   font-family: 'boh';
+   src: url(../fonts/boh.ttf);
+}
+.bebas {
+   font-family: 'bebas';
+   /*font-size: 3.2em;*/
+}
+.boh {
+   font-family: 'boh';
+   /*font-size: 3.2em;*/
+}
+.ama {
+   font-family: 'ama';
+   /*font-size: 3.2em;*/
+}
+#footer{
+	width:100%; height:60px; background-image:url(../mobile/images/footerexp.png); background-repeat:repeat-x;position:fixed;bottom:0px; z-index:41;
+}
+#footer_in_icon{
+	float:left;
+}
+#footer_in_b{
+	background-image:url(../mobile/images/footerb.png); background-repeat:repeat-x; height:61px; float:right;
+}
+#foter_in_text{
+	font-size:18pt; margin-top:8px; padding-left:5px;
+}
+#footer_in_h{
+	background-image:url(../mobile/images/footera.png); background-repeat:no-repeat; width:75px; height:61px; float:right;
+}
+.cleardiv{
+	clear:both;
+}
+.mlink{
+	color:#FFF;
+}
+#mainimage{
+	z-index:40;
+}
+/***************css for the slider********************************/
+.slideshow {
+  /* important stuff for slideshow */
+ /* width:868px;
+  height: 486px;*/
+  /*width:900px;*/
+  height:900px;
+
+  /* just for the demo, not required */
+  padding: 10px;
+  float: left;
+  /*background: #fff;*/
+  -webkit-border-radius: 12px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.no-js .slideshow {
+  /* a sane no-js solution */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.no-js .slideshow img {
+  margin: 0;
+}
+#control{
+ /* position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  top:430px;
+  text-align: left;
+  z-index:2;*/
+  z-index:39;
+  position:absolute;left:0px;top:250px
+}
+#slideshow {
+  overflow: hidden;
+  margin: auto;
+ position:absolute;
+ height:1200px;
+ -webkit-border-radius: 12px;
+ -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+#slides{
+	/*background-image:url(../images/ma_bk.jpg); width:868px; height:486px;*/
+	width:980px; height:2000px;
+}
+.slide {
+ /* z-index:1;
+  width: 100%;
+  height: 486px;
+  position: relative;*/
+  /*display: none;*/
+  
+  z-index:1;
+  width: 100%;
+  height:900px;
+  position: relative;
+}
+
+.not-ready .slide {
+  display: none;
+}
+
+.slide img {
+  position: absolute;
+}
+
+/* @group imgone */
+
+#imgone .one {
+  z-index:5;
+  left: 70px;
+  top: 120px;
+  height: 1050px;
+}
+
+#imgone .two {
+  z-index:4;
+  top: 800px;
+  left: 0px;
+  height: 400px;
+}
+/* @end */
+/* @group imgtwo */
+
+/*#imgtwo .one {
+   z-index:5;
+  left: 200px;
+  top: 160px;
+  height: 900px;
+}
+
+*/
+/* @end */
+
+/* @group imgtwo */
+#imgtwo .two {
+ z-index:6;
+  top: 300px;
+  left: 760px;
+  height: 600px;
+}
+/* @end */
+
+/* @group imgthree */
+
+#imgthree .one {
+   z-index:5;
+  left: 200px;
+  top: 160px;
+  height: 900px;
+}
+
+#imgthree .two {
+  z-index:6;
+  top: 160px;
+  left: 760px;
+  height: 200px;
+}
+#imgthree .three {
+   z-index:6;
+  top: 380px;
+  left: 730px;
+  height: 230px;
+}
+#imgthree .four {
+  z-index:6;
+  top: 640px;
+  left: 680px;
+  height: 230px;
+}
+/* @end */
+/* @group imgthree */
+
+#imgfour .one {
+   z-index:5;
+  left: 200px;
+  top: 160px;
+  height: 900px;
+}
+
+#imgfour .two {
+  z-index:6;
+  top: 300px;
+  left: 760px;
+  height: 600px;
+}
+#imgfive .two {
+ z-index:6;
+  top: 400px;
+  left: 700px;
+  height: 400px;
+}
+#imgsix .two {
+ z-index:6;
+  top: 400px;
+  left: 700px;
+  height: 400px;
+}
+
+/* @end */
+/***************end of css for slider **************************/
+.slideb_icon{
+	 z-index:39; height:312px; widows:264; float:right; position:absolute; left:550px; top:200px;
+}
+.slideb_cont_in{
+	font-size:18pt;font-family:Verdana; height:650px; padding-top:80px; padding-left:80px; margin-right:200px;
+	float:left;
+}
+.slideb_cont_in_in{
+	height:600px; padding-top:10px; overflow:auto;
+}
+#slideb_cont{
+	top: 200px;width:1022px;height:900px;position:absolute;
+}
+.buykur {
+  position: absolute;
+  left: 0;
+  background:url(../mobile/images/emptyxb.png);
+  background-repeat:no-repeat;
+  width:748px;
+  height:850px;
+  z-index:38;
+}
+.eventkur
+{
+  position: absolute;
+  left: 0;
+  background:url(../mobile/images/emptyxb.png);
+  background-repeat:no-repeat;
+  width:748px;
+  height:850px;
+  z-index:38;
+}
+.contactkur {
+  position: absolute;
+  left: 0;
+  background:url(../mobile/images/emptyxb.png);
+  background-repeat:no-repeat;
+  width:748px;
+  height:850px;
+  z-index:38;
+}
+.mobiletext{
+	height:40px;
+	width:60px;
+	font-size:25pt;
+}
+.mobiletext2{
+	height:20px;
+	width:200px;
+	font-size:20pt;
+}
+.mobiletextarea{
+	height:60px;
+	width:220px;
+	font-size:20pt;
+}
+.white{
+	color:#FFF;
+	font-size:20pt;
+}
+/****modal css**/
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:728px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  font-size:20pt;
+   font-family: Verdana;
+ /* padding:20px;*/
+}
+
+#boxes #privacy {
+  width:728x; 
+  height:747px;
+  /*padding:10px;*/
+  /*background-color:#ffffff;*/
+}
+#boxes #investor {
+  width:728px; 
+  height:747px;
+  /*padding:10px;*/
+  /*background-color:#ffffff;*/
+}
+#boxes #thankyou {
+  width:728px; 
+  height:747px;
+  /*padding:10px;*/
+  /*background-color:#ffffff;*/
+}
+#boxes_icon{
+	position:absolute; top:480px; left:560px;
+}
+#popbody{
+	background-image:url(../mobile/images/popexp.png); background-repeat:repeat-y; width:728px; padding-left:20px;
+}
+#popbody_in{
+	width:550px; color:#FFF; height:600px; overflow:auto;
+}
+#popheader{
+	 width:728px; height:71px;
+}
+#popfooter{
+	background-image:url(../mobile/images/popf.png); background-repeat:no-repeat; width:728px; height:37px;
+}
+/***end of modal css****/
+#qLpercentage{
+	font-size:20pt;
+	font-family:Verdana;
+	font-style:italic;
+}
